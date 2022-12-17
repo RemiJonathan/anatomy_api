@@ -5,25 +5,27 @@ const router = express.Router();
 router.get('/', function (req, res, next) {
     //TODO: Use fs to read the file and return the JSON object
     res.json({
-        anatomy: [
-            'General anatomy',
-            'Bones',
-            'Joints',
-            'Muscles',
-            'Alimentary system',
-            'Respiratory system',
-            'Thoracic cavity',
-            'Urinary system',
-            'Genital systems',
-            'Abdominopelvic cavity',
-            'Endocrine glands',
-            'Cardiovascular system',
-            'Lymphoid system',
-            'Nervous system',
-            'Sense organs',
-            'The integument'
+        anatomy: {
+            structures: [
+                {name: 'General anatomy'},
+                {name: 'Bones'},
+                {name: 'Joints'},
+                {name: 'Muscles'},
+                {name: 'Alimentary system'},
+                {name: 'Respiratory system'},
+                {name: 'Thoracic cavity'},
+                {name: 'Urinary system'},
+                {name: 'Genital systems'},
+                {name: 'Abdominopelvic cavity'},
+                {name: 'Endocrine glands'},
+                {name: 'Cardiovascular system'},
+                {name: 'Lymphoid system'},
+                {name: 'Nervous system'},
+                {name: 'Sense organs'},
+                {name: 'The integument'}
 
-        ]
+            ]
+        }
     });
 });
 
