@@ -11,5 +11,25 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "API to define the different parts of the human body",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemiJonathan/anatomy_api.git"
+  },
+  "keywords": [
+    "Anatomy",
+    "API",
+    "REST",
+    "Medicine",
+    "Health"
+  ],
+  "author": "Rémi Jonathan Choquette",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/RemiJonathan/anatomy_api/issues"
+  },
+  "homepage": "https://github.com/RemiJonathan/anatomy_api#readme"
 }
