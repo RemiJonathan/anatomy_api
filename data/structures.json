@@ -1,0 +1,53 @@
+{
+  "structures": [
+    {
+      "name": "General anatomy"
+    },
+    {
+      "name": "Bones",
+      "alternate name": "Skeletal System"
+    },
+    {
+      "name": "Joints"
+    },
+    {
+      "name": "Muscles"
+    },
+    {
+      "name": "Alimentary system"
+    },
+    {
+      "name": "Respiratory system"
+    },
+    {
+      "name": "Thoracic cavity"
+    },
+    {
+      "name": "Urinary system"
+    },
+    {
+      "name": "Genital systems"
+    },
+    {
+      "name": "Abdominopelvic cavity"
+    },
+    {
+      "name": "Endocrine glands"
+    },
+    {
+      "name": "Cardiovascular system"
+    },
+    {
+      "name": "Lymphoid system"
+    },
+    {
+      "name": "Nervous system"
+    },
+    {
+      "name": "Sense organs"
+    },
+    {
+      "name": "The integument"
+    }
+  ]
+}
